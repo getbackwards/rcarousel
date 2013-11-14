@@ -1,0 +1,44 @@
+.item-wrapper {
+	margin: 0 0 6px 6px;
+	position: relative;
+	float: left;
+}
+
+.item-wrapper a {
+	width: 142px;
+	height: 55px;
+	position: absolute;
+	left: 0;
+	padding: 37px 10px 0;
+	font-size: 11px;
+	text-align: center;
+	color: transparent;
+
+}
+
+.item-wrapper a:hover {
+	background: url(../images/transparent-bg.png) repeat;
+	color: #fff !important;
+	cursor: pointer;
+}
+
+.slide {
+	background: #f0e0e4;
+	background: #000;
+	/*border: 1px solid green !important;*/
+}
+
+.slide-wrapper {
+	margin: 0 0 0 2px;
+	padding: 8px 0;
+}
+
+.slide-wrapper img {
+	/*margin: 0 0 6px 6px;*/
+	float: left;
+}
+
+.slide-wrapper a {
+	/*margin: 0 0 6px 6px;
+	float: left;*/
+}
