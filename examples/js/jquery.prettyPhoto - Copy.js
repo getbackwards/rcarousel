@@ -4,9 +4,6 @@
 	Author: Stephane Caron (http://www.no-margin-for-errors.com)
 	Version: 3.1.5
 ------------------------------------------------------------------------- */
-
-$(document).ready(function(){
-
 (function($) {
 	$.prettyPhoto = {version: '3.1.5'};
 	
@@ -912,5 +909,3 @@ $(document).ready(function(){
 })(jQuery);
 
 var pp_alreadyInitialized = false; // Used for the deep linking to make sure not to call the same function several times.
-
-});
